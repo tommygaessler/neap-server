@@ -5,6 +5,9 @@
     "start": "node ./src/server/server",
     "test": "./node_modules/mocha/bin/_mocha"
   },
+  "engines": {
+    "node": "0.11"
+  },
   "dependencies": {
     "bcrypt": "^0.8.7",
     "body-parser": "~1.15.1",
